@@ -1,0 +1,15 @@
+def s(a):
+    n=1
+    t=len(a)
+    while n<l:
+         for i in range(t-n):
+              if a[i][::-1]>a[i+1][::-1]:
+                   a[i],a[i+1]=a[i+1],a[i]
+                   n=n+1 
+
+with open('input.txt') as f:
+    st=f.read().split('\n')
+print(*st'\n')
+
+s(st)
+print(*st)
