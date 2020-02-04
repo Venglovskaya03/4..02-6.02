@@ -1,0 +1,11 @@
+k=0 
+s=0 
+for i in open("input txt ","r"): 
+  k=k+1 
+  sr=int(i) 
+sr=s/k 
+f=open("input.txt", "w"): 
+f.write(str(sr)) 
+print(sr) 
+f.close()
+__________
