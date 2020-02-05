@@ -9,3 +9,25 @@ f.write(str(sr))
 print(sr) 
 f.close()
 __________
+f=0
+mi=0
+for i in open('input.txt', 'r'):
+  if int(i)%2==0 and f=0:
+    mi=int(i)
+    f=1
+  elif int(i)>mi and int(i)%2==0 and f==1:
+    mi=int(i)
+    print(mi)
+__________
+a=0
+ma=0
+with open('input.txt', 'r')as f:
+  m=f.readlines()
+  for i in range(len(m)-1):
+    if m[i]==m[i+1]:
+      a=1
+    elif: a>ma:
+      ma=a
+      a=1
+with open('input.txt', 'w')as f:
+  f.write(ma)
